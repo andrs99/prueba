@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
+ 
+  </head>
+
+  <style type="text/css">
+    .color-nav{
+        background-color: rgb(37, 13, 72);
+       
+    }
+
+    li .active:hover{
+      color: red;
+    }
+
+ </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark color-nav">
+      <a class="navbar-brand" href="http://localhost:8000/">Inicio</a>
+    </nav>
+    
+  </body>
+</html>

@@ -1,0 +1,188 @@
+{%extends "plantilla.html"%}
+{%block title%}Inicio{%endblock%}
+
+{%block content%}
+
+<style type="text/css">
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "arial";
+}
+
+body{
+  background-color: #e9ebee;
+}
+
+
+.navbar{
+  position: fixed;
+  top: 0px;
+  color: white;
+  font-size: 30px;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.img{
+  width: 300px; height: 180px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.img-text{
+  float: left;
+  width: 280px; height: 200px;
+
+  border-radius: 10px;
+
+  margin: 0px 15px 5px 0px;
+}
+
+.img:hover{
+  filter: blur(2px);
+}
+
+
+.div-img{
+  top: 200px;
+  margin: 200px;
+  background-color: blue;
+  display: inline-block;
+
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+.section{
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 15px;
+}
+
+
+
+.div-imgs {
+  margin: 55px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+}
+
+.div-imgs-i {
+  padding: 15px;
+  margin: 10px;
+}
+
+.box-text{
+  margin: 0px 100px 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  border-radius: 10px;
+}
+
+.text{
+  padding: 15px;
+  margin: 50px;
+}
+
+.color-footer, .color-header{
+  background-color: rgb(109, 115, 166);
+}
+
+.ligas{
+  font-size: 18px;
+}
+
+
+
+.boxt-text-description{
+  margin-top: 6%;
+}
+
+ol{
+  margin-left: 20px;
+}
+
+@media(max-width:1000px){
+  .box-text{
+    margin: 50px;
+  }
+
+  h1{
+    text-align: center;
+  }
+}
+
+.table-len{
+  margin: 100px;
+}
+
+  
+</style>
+
+<div class="div-imgs">
+  <div class="div-imgs-i">
+    <hr>
+    <h1>C#</h1>
+    <hr>
+  </div>
+</div>
+
+
+
+
+<div class="box-text">
+  <div class="text">
+    
+
+    <img class="img-text" src="https://www.henkla.se/wp-content/uploads/2019/09/ctraining_resize_md.jpg" title="Mojito Cubano" alt="">
+
+      <p>
+        C# (pronunciado si sharp en inglés) es un lenguaje de programación multiparadigma desarrollado y estandarizado por Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA (ECMA-334) e ISO (ISO/IEC 23270). C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común.
+      </p>
+
+      <p>
+        Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de Java, aunque incluye mejoras derivadas de otros lenguajes.
+      </p>
+
+
+      <p>
+        El nombre C Sharp fue inspirado por el signo ♯, el cual se lee como sharp en inglés para notación musical. Es un juego de palabras, pues '"C#" significa, musicalmente hablando, "do sostenido", donde el símbolo # indica que una nota (en este caso do, representada por C) debe ser un semitono más alta. Esto es una metáfora de la superioridad de C# sobre su antecesor C++ y a su vez hace alusión a la misma metáfora que se ideó para dar nombre a C++.1​ Además, el símbolo # puede ser imaginado como la unión de cuatro símbolos +, continuando así con el sentido de progresión de los lenguajes C.
+      </p>
+
+      <P>
+        Aunque C# forma parte de la plataforma .NET, esta es una API, mientras que C# es un lenguaje de programación independiente diseñado para generar programas sobre dicha plataforma. Ya existe un compilador implementado que provee el marco Mono - DotGNU, el cual genera programas para distintas plataformas como Windows Microsoft, Unix, Android, iOS, Windows Phone, Mac OS y GNU/Linux.
+      </P>
+  </div>
+</div>
+
+<div class="box-text">
+  <div class="text">
+
+      <h4>Historia</h4>
+      <hr>
+
+      <p>
+        Durante el desarrollo de la plataforma .NET, las bibliotecas de clases fueron escritas originalmente usando un sistema de código gestionado llamado Simple Managed C (SMC). En abril de 1999, Anders Hejlsberg formó un equipo con la misión de desarrollar un nuevo lenguaje orientado a objetos. Este nombre tuvo que ser cambiado debido a problemas de marca, pasando a llamarse C#.2​ La biblioteca de clases de la plataforma .NET fue migrada entonces al nuevo lenguaje, este después fue modificado por Joseth M.
+      </p>
+
+      <p>
+        Hejlsberg lideró el proyecto de desarrollo de C#. Anteriormente, ya había participado en el desarrollo de otros lenguajes como Turbo Pascal, Delphi y J++.
+      </p>
+  </div>
+</div>
+{%endblock%}

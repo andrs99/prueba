@@ -1,0 +1,203 @@
+{%extends "plantilla.html"%}
+{%block title%}Inicio{%endblock%}
+
+{%block content%}
+
+<style type="text/css">
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "arial";
+}
+
+body{
+  background-color: #e9ebee;
+}
+
+
+.navbar{
+  position: fixed;
+  top: 0px;
+  color: white;
+  font-size: 30px;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.img{
+  width: 300px; height: 180px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.img-text{
+  float: left;
+  width: 280px; height: 200px;
+
+  border-radius: 10px;
+
+  margin: 0px 15px 5px 0px;
+}
+
+.img:hover{
+  filter: blur(2px);
+}
+
+
+.div-img{
+  top: 200px;
+  margin: 200px;
+  background-color: blue;
+  display: inline-block;
+
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+.section{
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 15px;
+}
+
+
+
+.div-imgs {
+  margin: 55px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+}
+
+.div-imgs-i {
+  padding: 15px;
+  margin: 10px;
+}
+
+.box-text{
+  margin: 0px 100px 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  border-radius: 10px;
+}
+
+.text{
+  padding: 15px;
+  margin: 50px;
+}
+
+.color-footer, .color-header{
+  background-color: rgb(109, 115, 166);
+}
+
+.ligas{
+  font-size: 18px;
+}
+
+
+
+.boxt-text-description{
+  margin-top: 6%;
+}
+
+ol{
+  margin-left: 20px;
+}
+
+@media(max-width:1000px){
+  .box-text{
+    margin: 50px;
+  }
+
+  h1{
+    text-align: center;
+  }
+}
+
+.table-len{
+  margin: 100px;
+}
+
+  
+</style>
+
+<div class="div-imgs">
+  <div class="div-imgs-i">
+    <hr>
+    <h1>Python</h1>
+    <hr>
+  </div>
+</div>
+
+
+
+
+<div class="box-text">
+  <div class="text">
+    
+
+      <img class="img-text" src="https://www.muycomputer.com/wp-content/uploads/2019/01/lenguaje-de-programaci%C3%B3n.jpg" title="Mojito Cubano" alt="">
+
+      <p>
+        Un lenguaje de programación es un lenguaje formal (o artificial, es decir, un lenguaje con reglas gramaticales bien definidas) que le proporciona a una persona, 
+        en este caso el programador, la capacidad de escribir (o programar) una serie de instrucciones o secuencias de órdenes en forma de algoritmos con el fin de controlar 
+        el comportamiento físico y/o lógico de una computadora, de manera que se puedan obtener diversas clases de datos. A todo este conjunto de órdenes escritas mediante 
+        un lenguaje de programación se le denomina programa.
+      </p>
+
+      <p>
+        Por tanto, programar viene a ser el proceso de crear un software fiable mediante la escritura, prueba, depuración, compilación o interpretación, y mantenimiento del código 
+        fuente de dicho programa informático. Básicamente, este proceso se define aplicando lógicamente los siguientes pasos:
+      </p>
+
+
+      <p>
+
+        <li>El desarrollo lógico del programa para resolver un problema en particular</li>
+        <li>Escritura de la lógica del programa empleando un lenguaje de programación específico (codificación del programa)</li>
+        <li>Compilación o interpretación del programa hasta convertirlo en lenguaje de máquina</li>
+        <li>Prueba y depuración del programa</li>
+        <li>Desarrollo de la documentación.</li>
+      </p>
+
+      <P>
+        Los lenguajes de programación están formados por un conjunto de símbolos (llamado alfabeto), reglas gramaticales (léxico/morfológicas y sintácticas) y semánticas, 
+        que en conjunto definen las estructuras válidas del lenguaje y su significado. Existe el error común de trata como sinónimos los términos 'lenguaje de programación' 
+         'lenguaje informático'. Los lenguajes informáticos engloban a los lenguajes de programación y a otros más, como por ejemplo HTML (lenguaje para el marcado de páginas
+          web que no es propiamente un lenguaje de programación, sino un conjunto de instrucciones que permiten estructurar el contenido de los documentos).
+      </P>
+
+      <P>
+        El lenguaje de programación permite especificar de manera precisa sobre qué datos debe operar un software específico, cómo deben ser almacenados o transmitidos dichos 
+        datos, y qué acciones debe tomar el software bajo una variada gama de circunstancias. Todo esto, a través de un lenguaje que intenta estar relativamente próximo al 
+        lenguaje humano o natural. Una característica relevante de los lenguajes de programación es precisamente que más de un programador pueda usar un conjunto común de 
+        instrucciones que sean comprendidas entre ellos para realizar la construcción de un programa de forma colaborativa.
+      </P>
+      <p>
+          <li><a href="#"><a href="http://localhost:8000/python/">Python</a></a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">Java</a></li>
+          <li><a href="#">C#</a></li>
+          <li><a href="#">Php</a></li>
+          <li><a href="#">C++</a></li>
+          <li><a href="#">C</a></li>
+          <li><a href="#">R</a></li>
+          <li><a href="#">Swift</a></li>
+          <li><a href="#">Objetive C</a></li>
+      </p>
+  </div>
+</div>
+{%endblock%}

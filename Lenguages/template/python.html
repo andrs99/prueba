@@ -1,0 +1,303 @@
+{%extends "plantilla.html"%}
+{%block title%}Inicio{%endblock%}
+
+{%block content%}
+
+<style type="text/css">
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "arial";
+}
+
+body{
+  background-color: #e9ebee;
+}
+
+
+.navbar{
+  position: fixed;
+  top: 0px;
+  color: white;
+  font-size: 30px;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.img{
+  width: 300px; height: 180px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.img-text{
+  float: left;
+  width: 280px; height: 200px;
+
+  border-radius: 10px;
+
+  margin: 0px 15px 5px 0px;
+}
+
+.img:hover{
+  filter: blur(2px);
+}
+
+
+.div-img{
+  top: 200px;
+  margin: 200px;
+  background-color: blue;
+  display: inline-block;
+
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+.section{
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 15px;
+}
+
+
+
+.div-imgs {
+  margin: 55px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+}
+
+.div-imgs-i {
+  padding: 15px;
+  margin: 10px;
+}
+
+.box-text{
+  margin: 0px 100px 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  border-radius: 10px;
+}
+
+.text{
+  padding: 15px;
+  margin: 50px;
+}
+
+.color-footer, .color-header{
+  background-color: rgb(109, 115, 166);
+}
+
+.ligas{
+  font-size: 18px;
+}
+
+
+
+.boxt-text-description{
+  margin-top: 6%;
+}
+
+ol{
+  margin-left: 20px;
+}
+
+@media(max-width:1000px){
+  .box-text{
+    margin: 50px;
+  }
+
+  h1{
+    text-align: center;
+  }
+}
+
+.table-len{
+  margin: 100px;
+}
+
+  
+</style>
+
+<div class="div-imgs">
+  <div class="div-imgs-i">
+    <hr>
+    <h1>Python</h1>
+    <hr>
+  </div>
+</div>
+
+
+
+
+<div class="box-text">
+  <div class="text">
+    
+
+      <img class="img-text" src="https://www.linuxadictos.com/wp-content/uploads/python-logo.jpg" title="Mojito Cubano" alt="">
+
+      <p>
+        Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.2​ Se trata de un lenguaje 
+        de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. 
+        Es un lenguaje interpretado, dinámico y multiplataforma.
+        Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License,
+        que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores.
+      </p>
+  </div>
+</div>
+
+<div class="box-text">
+    <div class="text">
+      
+        <h4>Historia</h4>
+        <hr>
+        
+  
+        <p>
+          Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.2​ Se trata de un lenguaje 
+          de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. 
+          Es un lenguaje interpretado, dinámico y multiplataforma.
+          Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License,
+          que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores.
+        </p>
+
+        <p>
+            En 1991, van Rossum publicó el código de la versión 0.9.0 en alt.sources.9​ En esta etapa del desarrollo ya estaban presentes clases con
+             herencia, manejo de excepciones, funciones y los tipos modulares, como: str, list, dict, entre otros. Además en este lanzamiento inicial 
+             aparecía un sistema de módulos adoptado de Modula-3; van Rossum describe el módulo como «una de las mayores unidades de programación de 
+             Python».4​ El modelo de excepciones en Python es parecido al de Modula-3, con la adición de una cláusula else.5​ En el año 1994 se formó 
+             comp.lang.python, el foro de discusión principal de Python, marcando un hito en el crecimiento del grupo de usuarios de este lenguaje.
+        </p>
+
+        <p>
+            Python alcanzó la versión 1.0 en enero de 1994. Una característica de este lanzamiento fueron las herramientas de la programación funcional: 
+            lambda, reduce, filter y map. Van Rossum explicó que «hace 12 años, Python adquirió lambda, reduce(), filter() y map(), cortesía de un hacker 
+            informático de Lisp que las extrañaba y que envió parches».10​ El donante fue Amrit Prem; no se hace ninguna mención específica de cualquier 
+            herencia de Lisp en las notas de lanzamiento.
+        </p>
+
+        <p>
+            La última versión liberada proveniente de CWI fue Python 1.2. En 1995, van Rossum continuó su trabajo en Python en la Corporation for National
+             Research Initiatives (CNRI) en Reston, Virginia, donde lanzó varias versiones del software.
+        </p>
+
+        <p>
+            Durante su estancia en CNRI, van Rossum lanzó la iniciativa Computer Programming for Everybody (CP4E), con el fin de hacer la programación 
+            más accesible a más gente, con un nivel de 'alfabetización' básico en lenguajes de programación, similar a la alfabetización básica en inglés 
+            y habilidades matemáticas necesarias por muchos trabajadores. Python tuvo un papel crucial en este proceso: debido a su orientación hacia una 
+            sintaxis limpia, ya era idóneo, y las metas de CP4E presentaban similitudes con su predecesor, ABC. El proyecto fue patrocinado por DARPA.11​ 
+            En el año 2007, el proyecto CP4E está inactivo, y mientras Python intenta ser fácil de aprender y no muy arcano en su sintaxis y semántica, 
+            alcanzando a los no-programadores, no es una preocupación activa.
+        </p>
+
+        <p>
+            En el año 2000, el equipo principal de desarrolladores de Python se cambió a BeOpen.com para formar el equipo BeOpen PythonLabs. CNRI pidió que 
+            la versión 1.6 fuera pública, continuando su desarrollo hasta que el equipo de desarrollo abandonó CNRI; su programa de lanzamiento y el de la 
+            versión 2.0 tenían una significativa cantidad de traslapo.13​ Python 2.0 fue el primer y único lanzamiento de BeOpen.com. Después que Python 2.0 
+            fuera publicado por BeOpen.com, Guido van Rossum y los otros desarrolladores de PythonLabs se unieron en Digital Creations.
+            Python 2.0 tomó una característica mayor del lenguaje de programación funcional Haskell: listas por comprensión. La sintaxis de Python para esta construcción 
+            es muy similar a la de Haskell, salvo por la preferencia de los caracteres de puntuación en Haskell, y la preferencia de Python por palabras claves alfabéticas.
+            Python 2.0 introdujo además un sistema de recolección de basura capaz de recolectar referencias cíclicas.
+        </p>
+
+        <p>
+            Posterior a este doble lanzamiento, y después que van Rossum dejó CNRI para trabajar con desarrolladores de software comercial, quedó claro que la 
+            opción de usar Python con software disponible bajo GNU GPL era muy deseable. La licencia usada entonces, la Python License, incluía una cláusula 
+            estipulando que la licencia estaba gobernada por el estado de Virginia, por lo que, bajo la óptica de los abogados de Free Software Foundation (FSF), 
+            se hacía incompatible con GPL. CNRI y FSF se relacionaron para cambiar la licencia de software libre de Python para hacerla compatible con GPL. En el 
+            año 2001, van Rossum fue premiado con FSF Award for the Advancement of Free Software.
+        </p>
+    </div>
+</div>
+
+<div class="box-text">
+    <div class="text">
+      
+  
+        <h4>Características y paradigmas</h4>
+        <hr>
+  
+        <p>
+            Python es un lenguaje de programación multiparadigma. Esto significa que más que forzar a los programadores a adoptar un estilo particular de programación, permite 
+            varios estilos: programación orientada a objetos, programación imperativa y programación funcional. Otros paradigmas están soportados mediante el uso de extensiones.
+        </p>
+
+        <p>
+            Python usa tipado dinámico y conteo de referencias para la administración de memoria.
+        </p>
+
+        <p>
+            Una característica importante de Python es la resolución dinámica de nombres; es decir, lo que enlaza un método y un nombre de variable durante la ejecución del 
+            programa (también llamado enlace dinámico de métodos).
+        </p>
+
+        <p>
+            Otro objetivo del diseño del lenguaje es la facilidad de extensión. Se pueden escribir nuevos módulos fácilmente en C o C++. Python puede incluirse en aplicaciones 
+            que necesitan una interfaz programable.
+        </p>
+
+        <p>
+            Aunque la programación en Python podría considerarse en algunas situaciones hostil a la programación funcional tradicional del Lisp, existen bastantes analogías 
+            entre Python y los lenguajes minimalistas de la familia Lisp como puede ser Scheme.
+        </p>
+    </div>
+  </div>
+
+  <div class="box-text">
+    <div class="text">
+      
+  
+        <h4>Filosofía</h4>
+        <hr>
+  
+        <p>
+            Los usuarios de Python se refieren a menudo a la filosofía de Python que es bastante análoga a la filosofía de Unix. El código que siga los principios de Python 
+            se dice que es "pythonico". Estos principios fueron descritos por el desarrollador de Python Tim Peters en El Zen de Python
+        </p>
+
+        <p>
+            <li>Bello es mejor que feo.</li>
+            <li>Explícito es mejor que implícito.</li>
+            <li>Simple es mejor que complejo.</li>
+            <li>Complejo es mejor que complicado.</li>
+            <li>Plano es mejor que anidado.</li>
+            <li>Disperso es mejor que denso.</li>
+            <li>La legibilidad cuenta.</li>
+            <li>Los casos especiales no son tan especiales como para quebrantar las reglas.</li>
+            <li>Lo práctico gana a lo puro.</li>
+            <li>Los errores nunca deberían dejarse pasar silenciosamente.</li>
+            <li>A menos que hayan sido silenciados explícitamente.</li>
+            <li>Frente a la ambigüedad, rechaza la tentación de adivinar.</li>
+            <li>Debería haber una —y preferiblemente solo una— manera obvia de hacerlo.</li>
+            <li>Aunque esa manera puede no ser obvia al principio a menos que usted sea holandés.</li>
+            <li>Ahora es mejor que nunca.</li>
+            <li>Aunque nunca es a menudo mejor que ya mismo.</li>
+            <li>Si la implementación es difícil de explicar, es una mala idea.</li>
+            <li>Si la implementación es fácil de explicar, puede que sea una buena idea.</li>
+            <li>Los espacios de nombres (namespaces) son una gran idea ¡Hagamos más de esas cosas!</li>
+        </p>
+    </div>
+  </div>
+
+
+  
+
+  
+
+
+{%endblock%}

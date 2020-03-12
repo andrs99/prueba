@@ -1,0 +1,232 @@
+{%extends "plantilla.html"%}
+{%block title%}Inicio{%endblock%}
+
+{%block content%}
+
+<style type="text/css">
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "arial";
+}
+
+body{
+  background-color: #e9ebee;
+}
+
+
+.navbar{
+  position: fixed;
+  top: 0px;
+  color: white;
+  font-size: 30px;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.img{
+  width: 300px; height: 180px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.img-text{
+  float: left;
+  width: 280px; height: 200px;
+
+  border-radius: 10px;
+
+  margin: 0px 15px 5px 0px;
+}
+
+.img:hover{
+  filter: blur(2px);
+}
+
+
+.div-img{
+  top: 200px;
+  margin: 200px;
+  background-color: blue;
+  display: inline-block;
+
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+.section{
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 15px;
+}
+
+
+
+.div-imgs {
+  margin: 55px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+}
+
+.div-imgs-i {
+  padding: 15px;
+  margin: 10px;
+}
+
+.box-text{
+  margin: 0px 100px 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  border-radius: 10px;
+}
+
+.text{
+  padding: 15px;
+  margin: 50px;
+}
+
+.color-footer, .color-header{
+  background-color: rgb(109, 115, 166);
+}
+
+.ligas{
+  font-size: 18px;
+}
+
+
+
+.boxt-text-description{
+  margin-top: 6%;
+}
+
+ol{
+  margin-left: 20px;
+}
+
+@media(max-width:1000px){
+  .box-text{
+    margin: 50px;
+  }
+
+  h1{
+    text-align: center;
+  }
+}
+
+.table-len{
+  margin: 100px;
+}
+
+  
+</style>
+
+<div class="div-imgs">
+  <div class="div-imgs-i">
+    <hr>
+    <h1>Java</h1>
+    <hr>
+  </div>
+</div>
+
+
+
+
+<div class="box-text">
+  <div class="text">
+    
+
+      <img class="img-text" src="https://cambiodigital-ol.com/wp-content/uploads/2018/11/Logo_Java.jpg" title="Mojito Cubano" alt="">
+
+      <p>
+        Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones 
+        y sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros 
+        de datos, desde consolas para juegos hasta super computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes, que es ejecutado en una 
+        plataforma no tiene que ser recompilado para correr en otra. Java es, a partir de 2012, uno de los lenguajes de programación más populares en uso, 
+        particularmente para aplicaciones de cliente-servidor de web, con unos diez millones de usuarios reportados.
+      </p>
+
+      <p>
+        El lenguaje de programación Java fue originalmente desarrollado por James Gosling, de Sun Microsystems (constituida en 1983 y posteriormente adquirida el 27 
+        de enero de 2010 por la compañía Oracle),4​ y publicado en 1995 como un componente fundamental de la plataforma Java de Sun Microsystems. Su sintaxis deriva 
+        en gran medida de C y C++, pero tiene menos utilidades de bajo nivel que cualquiera de ellos. Las aplicaciones de Java son compiladas a bytecode (clase Java), 
+        que puede ejecutarse en cualquier máquina virtual Java (JVM) sin importar la arquitectura de la computadora subyacente.
+      </p>
+
+
+      <p>
+        La compañía Sun desarrolló la implementación de referencia original para los compiladores de Java, máquinas virtuales y librerías de clases en 1991, y las 
+        publicó por primera vez en 1995. A partir de mayo de 2007, en cumplimiento de las especificaciones del Proceso de la Comunidad Java, Sun volvió a licenciar 
+        la mayoría de sus tecnologías de Java bajo la Licencia Pública General de GNU. Otros también han desarrollado implementaciones alternas a estas tecnologías 
+        de Sun, tales como el Compilador de Java de GNU y el GNU Classpath.
+      </p>
+  </div>
+</div>
+
+<div class="box-text">
+  <div class="text">
+
+      <h4>Historia</h4>
+      <hr>
+
+      <p>
+        Java se creó como una herramienta de programación para ser usada en un proyecto de set-top-box en una pequeña operación denominada the Green Project en Sun 
+        Microsystems en el año 1991. El equipo (Green Team), compuesto por trece personas y dirigido por James Gosling, trabajó durante 18 meses en Sand Hill Road, 
+        en Menlo Park, en su desarrollo.
+      </p>
+
+      <p>
+        El lenguaje se denominó inicialmente Oak (por un roble que había fuera de la oficina de Gosling), luego pasó a denominarse Green tras descubrir que Oak era 
+        ya una marca comercial registrada para adaptadores de tarjetas gráficas, y finalmente se renombró como Java.
+      </p>
+
+      <p>
+        Es frecuentada por algunos de los miembros del equipo. Pero no está claro si es un acrónimo o no, aunque algunas fuentes señalan que podría tratarse de 
+        las iniciales de sus diseñadores: James Gosling, Arthur Van Hoff, y Andy Bechtolsheim. Otros abogan por el siguiente acrónimo, Just Another Vague Acronym 
+        ("sólo otro acrónimo ambiguo más"). La hipótesis que más fuerza tiene es la de que Java debe su nombre a un tipo de café disponible en la cafetería cercana; 
+        de ahí que el icono de Java sea una taza de café caliente. Un pequeño signo que da fuerza a esta teoría es que los cuatro primeros bytes (el número mágico) 
+        de los archivos.class que genera el compilador, son en hexadecimal, 0xCAFEBABE. A pesar de todas estas teorías, el nombre fue sacado al parecer de una lista 
+        aleatoria de palabras.
+      </p>
+
+      <p>
+        Los objetivos de Gosling eran implementar una máquina virtual y un lenguaje con una estructura y sintaxis similar a C++. Entre junio y julio de 1994, tras 
+        una sesión maratoniana de tres días entre John Gaga, James Gosling, Patrick Naughton, Wayne Rosing y Eric Schmidt, el equipo reorientó la plataforma hacia 
+        la Web. Sintieron que la llegada del navegador web Mosaic propiciaría que Internet se convirtiese en un medio interactivo, como el que pensaban era la 
+        televisión por cable. Naughton creó entonces un prototipo de navegador, WebRunner, que más tarde sería conocido como HotJava.
+      </p>
+
+      <p>
+        En 1994, se les hizo una demostración de HotJava y la plataforma Java a los ejecutivos de Sun. Java 1.0a pudo descargarse por primera vez en 1994, pero 
+        hubo que esperar al 23 de mayo de 1995, durante las conferencias de SunWorld, a que vieran la luz pública Java y HotJava, el navegador Web. El acontecimiento 
+        fue anunciado por John Gage, el director científico de Sun Microsystems. El acto estuvo acompañado por una pequeña sorpresa adicional, el anuncio por parte 
+        de Marc Andreessen, vicepresidente ejecutivo de Netscape, de que Java sería soportado en sus navegadores. El 9 de enero del año siguiente, 1996, Sun fundó 
+        el grupo empresarial JavaSoft para que se encargase del desarrollo tecnológico.[1] Dos semanas más tarde la primera versión de Java fue publicada.
+      </p>
+
+      <p>
+        La promesa inicial de Gosling era Write Once, Run Anywhere (Escríbelo una vez, ejecútalo en cualquier lugar), proporcionando un lenguaje independiente de 
+        la plataforma y un entorno de ejecución (la JVM) ligero y gratuito para las plataformas más populares, de forma que los binarios (bytecode) de las aplicaciones 
+        Java pudiesen ejecutarse en cualquier plataforma.
+      </p>
+
+      <p>
+        El entorno de ejecución era relativamente seguro y los principales navegadores web pronto incorporaron la posibilidad de ejecutar applets Java incrustadas 
+        en las páginas web.
+      </p>
+  </div>
+</div>
+{%endblock%}
